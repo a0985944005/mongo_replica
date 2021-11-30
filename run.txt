@@ -1,0 +1,12 @@
+先启动
+db1_27018.bat
+db2_27019.bat
+db3_27020.bat
+
+再进入
+
+"C:\Program Files\MongoDB\Server\4.4\bin\mongo.exe" -port 27018
+
+rs.initiate({_id:"rs0",members:[{_id:0,host:"127.0.0.1:27018"},{_id:1,host:"127.0.0.1:27019"},{_id:2,host:"127.0.0.1:27020"}]})
+
+rs.status()

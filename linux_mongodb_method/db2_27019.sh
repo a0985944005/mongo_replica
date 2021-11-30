@@ -1,0 +1,1 @@
+../usr/bin/mongod.exe --port 27019 --dbpath /var/mongoReplSet/db2 --replSet repldb2

@@ -1,0 +1,1 @@
+"C:\Program Files\MongoDB\Server\4.4\bin\mongod.exe" --port 27019 --dbpath C:\Users\rosco.l\Desktop\rosco\practice\mongo_replica\db2 --replSet rs0 
